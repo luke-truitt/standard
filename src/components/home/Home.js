@@ -17,18 +17,11 @@ import {
 } from "@material-ui/core/";
 import { EmbeddedEmailInput } from "../inputs/Inputs.js";
 import { primaryTheme, fadeDefault } from "../../utils/constants.js";
-import { findUserByEmail } from "../../firebase";
 import { useHistory, useLocation } from "react-router-dom";
 import React, { useRef, useState, useEffect, forwardRef } from "react";
 
 import logo from "./../../images/logo/logo.svg";
 import ButtonGroup from "antd/lib/button/button-group";
-
-const {
-  REACT_APP_API_BASE_URL,
-  REACT_APP_WAITLIST_URL,
-  REACT_APP_CALCULATOR_URL,
-} = process.env;
 
 function Home(props) {
   const [loading, setLoading] = useState(false);
