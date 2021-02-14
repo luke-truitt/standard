@@ -6,6 +6,7 @@
   position: absolute;
   top: 0;
   overflow: hidden;
+  background-color: #283596;
 }
 
 .home-c1 {
@@ -32,6 +33,7 @@ p.home-subtitle-lower {
   font-size: 1.1rem;
   margin-bottom: 2rem;
   line-height: 1.4rem;
+  color: #f6f6f6;
 }
 p.home-subtitle-upper {
   text-align: left;

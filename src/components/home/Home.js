@@ -20,7 +20,7 @@ import { primaryTheme, fadeDefault } from "../../utils/constants.js";
 import { useHistory, useLocation } from "react-router-dom";
 import React, { useRef, useState, useEffect, forwardRef } from "react";
 
-import logo from "./../../images/logo/logo.svg";
+import logo from "./../../images/logo/logo-white.svg";
 import ButtonGroup from "antd/lib/button/button-group";
 
 function Home(props) {
@@ -41,29 +41,8 @@ function Home(props) {
                 variant="body1"
                 color="secondary"
                 className="home-subtitle-lower">
-                Finance is supposed to facilitate life, not hold it back. Proper management of money, understanding what to do with it, and not having to think about it unless you want to are the way we see finance and banking. 
+                Finance facilitates life.
               </Typography>
-              <Typography
-                variant="body1"
-                color="secondary"
-                className="home-subtitle-lower">
-                We're going to help you get there, investing in you every step of the way so money is there when you need it and working for you when you don't.
-              </Typography>
-              <Typography
-                variant="body1"
-                color="secondary"
-                className="home-subtitle-lower">
-                Innovation has far outpaced the quality of the financial services you use and we're starting from scratch to fix it. Join us for this and we promise as an organization that we will do everything we can to move you forward.
-              </Typography>
-              <Button
-                variant="outlined"
-                color="secondary"
-                className="home-caption"
-              >
-                <a href="https://taxes.fromstandard.com" style={{color: "#283596", textDecoration: "none"}}>
-                  The first step is taxes because free money is a great facilitator for financial success, but that's only beginning. Check it out here.{" "}
-                </a>
-              </Button>
             </div>
           </div>
         </Fade>
