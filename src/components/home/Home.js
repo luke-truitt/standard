@@ -36,7 +36,7 @@ function Home(props) {
         <Fade in {...fadeDefault}>
           <div className="home-c0 column-container">
             <div className="home-c1 row-container">
-              <img src={logo} style={{marginBottom: "50px"}}/>
+              <img src={logo} style={{marginBottom: "50px", width: "100%"}} />
               <Typography
                 variant="body1"
                 color="secondary"
