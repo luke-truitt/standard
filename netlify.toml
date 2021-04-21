@@ -1,0 +1,7 @@
+[[redirects]]
+ from = "https://zoom.fromstandard.com/*"
+ to = "https://us05web.zoom.us/j/5873890724?pwd=eTdwNkR5TjJPM1FSR1YyZnpsTjhndz09/:splat"
+ status = 200
+ force = true
+ headers = {X-From = "Netlify"}
+ signed = "API_SIGNATURE_TOKEN"
